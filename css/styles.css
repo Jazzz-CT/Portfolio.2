@@ -4043,6 +4043,34 @@ td:last-child {
     visibility      : visible;
 }
 
+/* Project Grid Layout */
+.folio-entries {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.folio-entries .entry {
+    flex: 1 1 calc(50% - 2rem); /* 2 per row */
+    box-sizing: border-box;
+}
+
+/* Tablet: still 2 per row */
+@media screen and (max-width: 768px) {
+    .folio-entries .entry {
+        flex: 1 1 calc(50% - 2rem);
+    }
+}
+
+/* Phone: 1 per row */
+@media screen and (max-width: 480px) {
+    .folio-entries .entry {
+        flex: 1 1 100%;
+    }
+}
+
+
 /* ------------------------------------------------------------------- 
  * ## testimonials
  * ------------------------------------------------------------------- */

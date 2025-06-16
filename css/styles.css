@@ -3956,14 +3956,14 @@ td:last-child {
 /* ------------------------------------------------------------------- 
  * ## folio entries 
  * ------------------------------------------------------------------- */
-.folio-entries .entry {
+/*.folio-entries .entry {
     flex    : none;
     width   : 50%;
     margin  : 0;
     padding : 0;
     overflow: hidden;
     position: relative;
-}
+}*/
 
 .folio-entries .entry__link {
     display : block;
